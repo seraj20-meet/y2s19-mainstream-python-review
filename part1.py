@@ -7,15 +7,13 @@ def greet_by_name(name):
 	print("hello"+ name)
 
 def encode(x):
-	y =(x * 3953531)
-	return y
+	return x * 3953531
+	
 
 
 
 def decode(y):
-	x= y/3953531
-	print (x)
-	
+	return x/y
 
 hello_world()
 	
