@@ -10,7 +10,7 @@ else:
 
 ## Test 2. Tests the greet_by_name function
 print("Test 2")
-if(part1.greet_by_name("bob") == "hello bob"):
+if(part1.greet_by_name(" seejo ") == "hello seejo "):
 	print("PASSED")
 else:
 	print("FAILED")
